@@ -14,5 +14,5 @@
 
 ## Citations
 * Your citations go here
-[Genius] (URL to Genius Song)
-[Youtube] (URL to Genius Song)
+[Genius] (https://genius.com/Still-woozy-shotput-lyrics)
+[Youtube] (https://www.youtube.com/watch?v=0wDD7ItMjbE)
