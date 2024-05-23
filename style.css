@@ -1,9 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 /* CSS Variables */
 :root {
+
+   --color1: #021e31;
+  --color2: #a31f70;
+  --color3: #fd6d13;
+  --color4: #26CF12;
+  --color5: #3878a3;
+  --color6: #b391da;
+  --primaryfont: "Rubik", sans-serif;
+
+
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main:var(--color4);
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-audio-controls-background: var(--color2);
     /* audio controls color */
     --plyr-audio-control-color: white;
     /* font family for player */
@@ -21,31 +34,59 @@
 }
 
 body {
-    background: gray;
+    font-family: "Rajdhani", sans-serif;
+    background: var(--color2);
 }
+
+h1, h2 {
+
+    font-family: "Joti One", serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h1 {
+   
+    color: var(--color2)
+    
+}
+
+h2 {
+    color: var(--color5)
+}
+
+
 
 /* Layout */
 main {
     /* Fixed width center align */
-    max-width: 60em;
+    max-width: 80em;
     margin-inline: auto;
 
-    background: lightgray;
+    background: rgba(255, 189, 148, 0.822);
+    padding: 2em;
 }
 
 main img {
     /* Fit image to container */
     max-width: 100%;
     display: block;
+   
+    
 }
 
 /* Primary Content */
 article {
     /* flow content horizontally */
     display: flex;
-    gap: 1em;
+    gap: 2em;
     justify-content: center;
+
+    font-size: 1.5rem;
+    color: var(--color1)
 }
+
+
 
 article section {
     /* keep flex'd child same width */
@@ -57,9 +98,24 @@ footer {
     text-align: center;
 }
 
+footer a:link,
+footer a:visited {
+
+    color: var(--color2)
+   
+}
+
+foot a: hover;
+
+
 /* Media Queries */
 @media (max-width: 40em) {
     main article {
         flex-direction: column;
     }
+}
+
+main article section {
+
+    text-align: justify;
 }
