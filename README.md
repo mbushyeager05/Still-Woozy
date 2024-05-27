@@ -13,6 +13,6 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* Your citations go here
+
 [Genius] (https://genius.com/Still-woozy-shotput-lyrics)
 [Youtube] (https://www.youtube.com/watch?v=0wDD7ItMjbE)
