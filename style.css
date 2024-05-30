@@ -4,7 +4,7 @@
 /* CSS Variables */
 :root {
 
-   --color1: #021e31;
+   --color1: #083c5f;
   --color2: #a31f70;
   --color3: #fd6d13;
   --color4: #26CF12;
@@ -88,6 +88,7 @@ article {
 
     font-size: 1.5rem;
     color: var(--color1)
+    
 }
 
 
@@ -95,6 +96,7 @@ article {
 article section {
     /* keep flex'd child same width */
     flex: 1;
+    /* background: var(--color6); */
 }
 
 /* Footer */
